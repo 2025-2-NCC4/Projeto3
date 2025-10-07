@@ -1,0 +1,111 @@
+.container{ 
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.containerTitle{ 
+    background:#fff; 
+    color:#000; 
+    width:fit-content; 
+    padding:12px 16px; 
+    font-size:20px; 
+    border-radius:10px; 
+    box-shadow:0 8px 24px rgba(0,0,0,.15); 
+}
+
+.kpisRow{ 
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+     gap:16px;
+      margin:16px 0;
+     }
+.kpi{ 
+    background:#fff;
+    color:#000;
+    border-radius:16px;
+    padding:16px; 
+    box-shadow:0 8px 24px rgba(0,0,0,.15); 
+}
+.kpi span{ 
+    font-size:12px; 
+    color:#666; 
+}
+.kpi strong{ 
+    display:block;
+    font-size:24px; 
+    margin-top:6px; 
+}
+
+.editor{ 
+    background:#fff; 
+    color:#000; 
+    border-radius:16px; 
+    padding:16px; 
+    display:grid; 
+    grid-template-columns:repeat(6, 1fr); 
+    gap:12px; 
+    box-shadow:0 8px 24px rgba(0,0,0,.15); 
+}
+.editor label{ 
+    display:block; 
+    font-size:12px; 
+    color:#444; 
+    margin-bottom:6px;
+ }
+.editor select, .editor input{ 
+    width:100%; 
+    height:40px; 
+    border-radius:10px; 
+    border:1px solid #d0d0d0; 
+    padding:0 10px; background:#f2f2f7; 
+}
+
+.card{ 
+    margin-top:16px; 
+    background:#fff; 
+    color:#000; 
+    border-radius:16px; 
+    padding:10px; 
+    box-shadow:0 8px 24px rgba(0,0,0,.15); 
+}
+.placeholder{ 
+    padding:40px; 
+    text-align:center;
+     color:#777; }
+
+.sugestoes{
+     display:flex;
+      gap:12px; 
+      margin-top:10px;
+     }
+.tip{ 
+    background:#151530;
+     color:#eaeaf2; 
+     border-radius:12px; 
+     padding:8px 12px;
+     }
+
+     .containerCharts{
+  background: #fff;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.containerChart{
+  flex: 1;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+@media (max-width: 980px){
+  .kpisRow{ grid-template-columns: repeat(2, 1fr); }
+  .editor{ grid-template-columns: repeat(3, 1fr); }
+  .containerCharts{ flex-direction: column; }
+}
