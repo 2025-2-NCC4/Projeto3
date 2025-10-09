@@ -9,8 +9,6 @@ import SignIn from './components/pages/SignIn'
 import SignUp from './components/pages/SignUp'
 
 import DashboardCFO from './components/pages/DashboardCFO'
-
-import DashboardCFO from './components/pages/DashboardCFO'
 import DashboardCEO from './components/pages/DashboardCEO'
 
 import Container from './components/Container'
