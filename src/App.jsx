@@ -8,7 +8,7 @@ import TheProject from './components/pages/TheProject'
 import SignIn from './components/pages/SignIn'
 import SignUp from './components/pages/SignUp'
 
-import ApplicationHome from './components/pages/ApplicationHome'
+import DashboardCFO from './components/pages/DashboardCFO'
 
 import DashboardCFO from './components/pages/DashboardCFO'
 import DashboardCEO from './components/pages/DashboardCEO'
@@ -28,12 +28,8 @@ function App() {
           <Route path="/project" element={<TheProject></TheProject>}></Route>
           <Route path="/sign-in" element={<SignIn></SignIn>}></Route>
           <Route path="/sign-up" element={<SignUp></SignUp>}></Route>
-
-          <Route path="/application/" element={<ApplicationHome></ApplicationHome>}></Route>
-
           <Route path="/dashboardCFO/" element={<DashboardCFO></DashboardCFO>}></Route>
           <Route path="/dashboardCEO/" element={<DashboardCEO></DashboardCEO>}></Route>
-
         </Container>
       </Router>
     </div>
