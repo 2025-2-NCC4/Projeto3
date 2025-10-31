@@ -9,6 +9,7 @@ import SignIn from './components/pages/SignIn'
 import SignUp from './components/pages/SignUp'
 
 import DashboardCFO from './components/pages/DashboardCFO'
+import DashboardCEO from './components/pages/DashboardCEO'
 
 import Container from './components/Container'
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/sign-in" element={<SignIn></SignIn>}></Route>
           <Route path="/sign-up" element={<SignUp></SignUp>}></Route>
           <Route path="/dashboardCFO/" element={<DashboardCFO></DashboardCFO>}></Route>
+          <Route path="/dashboardCEO/" element={<DashboardCEO></DashboardCEO>}></Route>
         </Container>
       </Router>
     </div>

@@ -12,8 +12,12 @@ function SignIn(){
     const loginVerify = () => {
         if(login == "admin" && password=="12345"){
             navigate("/dashboardCFO/")
-        }else{
-            alert("Login inválido!")
+
+        } else if (login === "ceo" && password === "12345"){
+            navigate ("/dashboardCEO/");
+        }
+    else{
+         alert("Login inválido!")
         }
     }
 
