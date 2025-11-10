@@ -51,8 +51,6 @@ Raiz/<br>
 &emsp;├── .gitignore<br>
 &emsp;└── README.md<br>
 
-> ℹ️ Todas as versões estão disponíveis na aba [Releases](https://github.com/orgs/2025-2-NCC4/teams/grupo3).
-
 ## 🛠 Link para o Site
 <a href="https://higher-analysis.vercel.app/executive-overview">HigherAnalysis</a>
 
