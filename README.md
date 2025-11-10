@@ -86,4 +86,3 @@ Aqui estão as referências usadas no projeto:
 3. [ESLint - The pluggable linting utility for JavaScript and JSX](https://eslint.org/)  
    Acesso em: 20 de outubro de 2025.
 
-
