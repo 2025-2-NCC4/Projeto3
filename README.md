@@ -44,10 +44,10 @@ Raiz/<br>
 &emsp;├── src/<br>
 &emsp;&emsp;├── Entrega 1/<br>
 &emsp;&emsp;&emsp;├── Backend/<br>
-&emsp;&emsp;&emsp;└── Frontend/<br>
+&emsp;&emsp;&emsp;└── Base/<br>
 &emsp;&emsp;├── Entrega 2/<br>
 &emsp;&emsp;&emsp;├── Backend/<br>
-&emsp;&emsp;&emsp;└── Frontend/<br>
+&emsp;&emsp;&emsp;└── Base/<br>
 &emsp;├── .gitignore<br>
 &emsp;└── README.md<br>
 
