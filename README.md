@@ -52,7 +52,7 @@ Raiz/<br>
 &emsp;└── README.md<br>
 
 
-## 🛠 Link de Dados
+## 🛠 Link do Site
 
 <a href="https://higher-analysis.vercel.app">HigherAnalysis<a>
 
